@@ -7,7 +7,7 @@
     "start": "node --harmony-top-level-await --experimental-modules --es-module-specifier-resolution=node ."
   },
   "engines": {
-    "node": "^13.0.0"
+    "node": ">=13.2.0"
   },
   "type": "module",
   "license": "MIT",
