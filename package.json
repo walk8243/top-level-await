@@ -1,0 +1,18 @@
+{
+  "name": "top-level-await",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn run tsc --build",
+    "start": "node --harmony-top-level-await --experimental-modules --es-module-specifier-resolution=node ."
+  },
+  "engines": {
+    "node": "^13.0.0"
+  },
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "typescript": "3.8.0-dev.20200119"
+  }
+}
